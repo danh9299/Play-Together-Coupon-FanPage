@@ -1,0 +1,94 @@
+body{
+    background-image: url("img/background.png");
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+  
+  
+  
+    height:765px;
+    width: 550px;
+    background-image: url("img/box.jpg");
+    border: 12px solid white;
+    border-radius: 5%;
+    padding:0;
+}
+
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:70%;
+    height:50%;
+}
+
+
+.coupon{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+.para{
+    padding: 3px 20px;
+    word-break: keep-all;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #444;
+    text-align: center;
+}
+
+.para2{
+    font-size:23px;
+}
+
+.request{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputCoupon{
+    color:black;
+    background-color: rgb(96, 96, 255);
+    height: 70px;
+    width:320px;
+    font-size:20px;
+    border:none;
+    border-radius: 10%/50%;
+    text-align: start;
+    box-shadow: 0 5px 0 0 #6da2d3;
+    background-color:#89beeb;
+}
+
+::placeholder{
+    color:rgb(129, 129, 129);
+    font-size:25px;
+    font-weight:100;
+}
+
+.btn{
+    font-size:20px;
+    height:70px;
+    width:150px;
+    border:none;
+    border-radius: 20%/50%;
+
+    background-color: #37b8ef;
+ 
+    box-shadow: 0 5px 0 0 #1d90d5;
+}
